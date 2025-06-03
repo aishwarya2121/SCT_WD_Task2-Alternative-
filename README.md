@@ -14,6 +14,7 @@ Domain - Web Development
 A simple and responsive calculator web application built using HTML, CSS, and JavaScript. This project performs basic arithmetic operations like addition, subtraction, multiplication, and division.
 
 # Features
+
 User-friendly interface
 
 Supports basic math operations: +, -, *, /
@@ -25,6 +26,7 @@ Input validation with error handling
 Stylish hover effects and dark theme calculator box
 
 Technologies Used
+
 HTML – Structure of the app
 
 CSS – Styling and layout
