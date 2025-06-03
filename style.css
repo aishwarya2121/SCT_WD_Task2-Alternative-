@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.calculator
+{
+    display: inline-block;
+    margin-top: 20px;
+    
+    
+}
+input
+{
+    width: 160px;
+    height: 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin: 6px 6px 6px 6px;
+    
+    
+    border-radius: 4px;
+}
+.button
+{
+    gap: 10px;
+    display: grid;
+    
+    
+
+}
+button
+{
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+   
+    cursor: pointer;
+    transition: background color 0.2s;
+
+}
+button:hover {
+  background-color:grey
+}
+div
+{
+    
+    height: 220px;
+    background-color:black;
+    border-radius: 12px;
+    
+}
