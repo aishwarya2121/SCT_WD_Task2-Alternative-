@@ -1,21 +1,32 @@
-function appendValue(value)
-{
-    document.getElementById("result").value += value;
-}
-function clearResult()
-{
-    document.getElementById("result").value = "";
-}
-function calculate()
-{
-    try
-    {
-         let result = eval(document.getElementById("result").value);
+let string = "";
+let buttons = document.querySelectorAll('.button'); //  Select all buttons
+let input = document.getElementById('inputBox');    //  Select input box
+let arr = Array.from(buttons);
 
-         document.getElementById("result").value=result;
-    }
-    catch
-    {
-        document.getElementById("result").value="Error";
-    }
-}
+arr.forEach(button => {
+    button.addEventListener('click', (e) => {
+        const value = e.target.innerHTML;
+
+        if (value === '=') {
+            try {
+                string = eval(string);
+                input.value = string;
+            } catch {
+                input.value = "Error";
+                string = "";
+            }
+        }
+        else if (value === 'AC') {
+            string = "";
+            input.value = string;
+        }
+        else if (value === 'DEL') {
+            string = string.slice(0, -1);
+            input.value = string;
+        }
+        else {
+            string += value;
+            input.value = string;
+        }
+    });
+});
