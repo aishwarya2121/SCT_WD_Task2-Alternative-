@@ -37,13 +37,6 @@ This is a simple Calculator Web Application built using HTML, CSS, and JavaScrip
 
 Output
 
-![Image](https://github.com/user-attachments/assets/631893c1-72ed-4f78-803e-492f3c6bab36)
-
-![Image](https://github.com/user-attachments/assets/36ada801-178d-46f5-9956-185613a0c1bd)
-
-![Image](https://github.com/user-attachments/assets/d45df272-46b4-40fd-aef9-4decb55e634f)
-
-![Image](https://github.com/user-attachments/assets/69f877dc-8141-452d-895e-d2b97193fcb6)
 
 
 
